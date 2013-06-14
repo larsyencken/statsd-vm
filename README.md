@@ -1,8 +1,8 @@
 # statsd-vm
 
-A [Vagrant](http://www.vagrantup.com/) virtual machine for [statsd](https://github.com/etsy/statsd).
+**STATUS: not yet working**
 
-**WORK IN PROGRESS**
+A [Vagrant](http://www.vagrantup.com/) virtual machine for [statsd](https://github.com/etsy/statsd).
 
 ## Setting up the VM
 
