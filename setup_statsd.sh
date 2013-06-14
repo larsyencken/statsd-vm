@@ -7,7 +7,7 @@ if [ ! -x /usr/local/bin/marelle ]; then
   # install marelle
   sudo apt-get update
   sudo apt-get install -y curl git swi-prolog-nox
-  git clone https://bitbucket.org/larsyencken/marelle /usr/local/marelle
+  git clone https://github.com/larsyencken/marelle /usr/local/marelle
 
   cat >/usr/local/bin/marelle <<EOF
 #!/bin/bash
@@ -18,7 +18,7 @@ fi
 
 if [ ! -d marelle-deps ]; then
   # get some deps
-  git clone https://bitbucket.org/larsyencken/statsd-deps marelle-deps
+  sudo -u vagrant git clone https://github.com/larsyencken/statsd-deps marelle-deps
 fi
 
 marelle meet statsd
